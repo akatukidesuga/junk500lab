@@ -3,11 +3,6 @@ body{
     font-size: clamp(15px, 1vw, 17px);  
 }
 
-.carousel-item .img-fluid {
-    width:100%;
-    height:auto;
-  }
-
 /*プロフ*/
 img.float_left{
 margin-left: 450px;
