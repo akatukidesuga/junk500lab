@@ -3,11 +3,47 @@ body{
     font-size: clamp(15px, 1vw, 17px);  
 }
 
+.carousel-item .img-fluid {
+    width:100%;
+    height:auto;
+  }
+
+/*プロフ*/
 img.float_left{
-    margin-left: 500px;
+margin-left: 450px;
 float: left;
 }
 
 .float_clear{
 clear:both;
+}
+
+/*画面サイズ1300px以下の場合に適用*/
+@media only screen and (max-width: 1300px){
+    img.float_left{
+    margin-left: 70px;
+    width:50%; 
+    max-width:100px;
+    margin: 0 20px 10px 0;
+    }
+    }
+
+/*画面サイズ1100px以下の場合に適用*/
+@media only screen and (max-width: 1100px){
+    img.float_left{
+    margin-left: 50px;
+    width:50%; 
+    max-width:200px;
+    margin: 0 15px 5px 0;
+    }
+    }
+
+/*画面サイズ660px以下の場合に適用*/
+@media only screen and (max-width: 660px){
+img.float_left{
+margin-left: 100px;
+width:50%; 
+max-width:200px;
+margin: 0 15px 5px 0;
+}
 }
