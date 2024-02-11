@@ -1,0 +1,13 @@
+body{
+    font-family: 'Noto Sans JP',sans-serif;  
+    font-size: clamp(15px, 1vw, 17px);  
+}
+
+img.float_left{
+    margin-left: 500px;
+float: left;
+}
+
+.float_clear{
+clear:both;
+}
