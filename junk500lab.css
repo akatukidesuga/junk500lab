@@ -28,7 +28,7 @@ clear:both;
     img.float_left{
     margin-left: 50px;
     width:50%; 
-    max-width:200px;
+    max-width:100px;
     margin: 0 15px 5px 0;
     }
     }
@@ -38,7 +38,6 @@ clear:both;
 img.float_left{
 margin-left: 100px;
 width:50%; 
-max-width:200px;
 margin: 0 15px 5px 0;
 }
 }
