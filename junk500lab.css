@@ -5,7 +5,7 @@ body{
 
 /*プロフ*/
 img.float_left{
-margin-left: 450px;
+margin-left: 500px;
 float: left;
 }
 
@@ -36,8 +36,7 @@ clear:both;
 /*画面サイズ660px以下の場合に適用*/
 @media only screen and (max-width: 660px){
 img.float_left{
-margin-left: 100px;
-width:50%; 
-margin: 0 15px 5px 0;
+margin-left: 30px;
+width:70%; 
 }
 }
