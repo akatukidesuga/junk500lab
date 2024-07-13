@@ -40,10 +40,10 @@ clear:both;
     }
     }
 
-/*画面サイズ660px以下の場合に適用*/
-@media only screen and (max-width: 660px){
+/*画面サイズ590px以下の場合に適用*/
+@media only screen and (max-width: 590px){
 img.float_left{
-margin-left: 30px;
-width:70%; 
+margin-left: 20px;
+width:60%; 
 }
 }
