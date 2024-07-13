@@ -1,6 +1,13 @@
 body{
     font-family: 'Noto Sans JP',sans-serif;  
     font-size: clamp(15px, 1vw, 17px);  
+    color:404040;
+}
+
+/*背景*/
+.full-page{
+height:100%
+background:#fafafa
 }
 
 /*プロフ*/
