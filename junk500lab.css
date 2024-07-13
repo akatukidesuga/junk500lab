@@ -11,9 +11,9 @@ background:#fafafa
 }
 
 /*プロフ*/
-img.float_left{
-margin-left: 500px;
-float: left;
+.box-img,
+.box-text{
+  display: inline-block;
 }
 
 .float_clear{
