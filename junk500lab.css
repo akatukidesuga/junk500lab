@@ -4,20 +4,9 @@ body{
     color:404040;
 }
 
-/*背景*/
-.full-page{
-height:100%
-background:#fafafa
-}
-
-/*プロフ*/
-.box-img,
-.box-text{
-  display: inline-block;
-}
-
-.float_clear{
-clear:both;
+.navbar{
+    text-decoration: none;
+    color:aliceblue;
 }
 
 /*画面サイズ1300px以下の場合に適用*/
