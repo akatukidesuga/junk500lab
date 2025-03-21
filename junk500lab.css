@@ -23,6 +23,20 @@ body{
     color: #777; /* 記号の色 */
   }
 
+/*本文*/
+.main{
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 10px;
+}
+
+li{
+    color:404040;
+}
+
+a{
+    text-decoration: none;
+}
 /*画面サイズ1300px以下の場合に適用*/
 @media only screen and (max-width: 1300px){
     img.float_left{
