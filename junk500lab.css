@@ -4,9 +4,10 @@ body{
     color:404040;
 }
 
-.navbar{
+/*ナビゲーションバー部装飾*/
+a.nav-link{
     text-decoration: none;
-    color:aliceblue;
+    color: aliceblue;
 }
 
 /*パンくずリスト向け*/
@@ -30,37 +31,77 @@ body{
     padding: 0 10px;
 }
 
-li{
-    color:404040;
-}
-
 a{
     text-decoration: none;
 }
-/*画面サイズ1300px以下の場合に適用*/
-@media only screen and (max-width: 1300px){
-    img.float_left{
-    margin-left: 70px;
-    width:50%; 
-    max-width:100px;
-    margin: 0 20px 10px 0;
-    }
-    }
 
-/*画面サイズ1100px以下の場合に適用*/
-@media only screen and (max-width: 1100px){
-    img.float_left{
-    margin-left: 50px;
-    width:50%; 
-    max-width:100px;
-    margin: 0 15px 5px 0;
-    }
-    }
+p{
+    margin:0,0,30px,0;
+    padding: 0,30px,30px,0;
+}
 
-/*画面サイズ590px以下の場合に適用*/
+/*本文装飾用*/
+h2.display-4{
+    padding: 0 0 20px 0;
+}
+
+p.syo{
+ font-size: 0.9em;
+ margin: 0,0,0,60px;
+}
+
+/*画像関連(PC向け)*/
+img.card-img-top{
+    width: 55%;
+    height: 65%;
+    margin: auto;
+    padding: auto;
+   }
+
+/*フッタ部*/
+footer{
+    width:100%;
+    color:aliceblue;
+    font-size: 0.8em;
+    background-color:#777;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+}
+
+/*SP向け：画面サイズ590px以下の場合に適用*/
 @media only screen and (max-width: 590px){
-img.float_left{
-margin-left: 20px;
-width:60%; 
+/*hタグ部*/
+h4{
+        font-size: 1.2em;
+    }
+/*本文*/
+p{
+    font-size:1em;
+}
+p.lead{
+    font-size: 1.2em;
+}
+
+/*画像等*/
+img.card-img-top{
+ width: 70%;
+ height: 70%;
+ margin: auto;
+ padding: auto;
+}
+
+/*プロフ部*/
+img.jiga{
+    width: 65%;
+    height: 65%;
+    margin: auto;
+    padding: auto;
+}
+/*ポスター等印刷物関連ネタ*/
+img.poster{
+    width: 65%;
+    height: 65%;
+    margin: auto;
+    padding: auto;
 }
 }
