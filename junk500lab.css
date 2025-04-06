@@ -4,6 +4,23 @@ body{
     color:404040;
 }
 
+/*ヘッダ部ナビゲーションバー*/
+.navbar .navbar-nav .nav-link {
+    font-size:1.2em;
+    color:rgb(252, 252, 252);
+  }
+  .nav-link .navbar-nav .acvtive > .nav-link{
+    color:rgb(252, 252, 252);
+  }
+  /*ヘッダ ハンバーガーメニュー部*/
+  .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  /*ヘッダ ハンバーガーメニュー トグルバー部*/
+  .navbar-toggler{
+    border-color: #ffffff;
+  }
+  
 /*ナビゲーションバー部装飾*/
 a.nav-link{
     text-decoration: none;
@@ -37,9 +54,24 @@ a{
 
 p{
     margin:0,0,30px,0;
-    padding: 0,30px,30px,0;
+    padding: 10px,30px,50px,10px;
 }
 
+/*リスト向け*/
+ul{
+  width:fit-content;
+  margin: auto;
+}
+
+li{
+ padding: 10px 0 0 0;
+}
+
+/*改行関連*/
+.hidden-pc{
+    display: none;
+  }
+  
 /*本文装飾用*/
 h2.display-4{
     padding: 0 0 20px 0;
@@ -81,6 +113,16 @@ p{
 p.lead{
     font-size: 1.2em;
 }
+
+/*sp向け改行*/
+@media(max-width: 767px){
+    .hidden-pc{
+      display: block;
+    }
+    .hidden-sp{
+      display: none;
+    }
+    }
 
 /*画像等*/
 img.card-img-top{
