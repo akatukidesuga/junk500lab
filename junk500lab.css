@@ -77,12 +77,30 @@ h2.display-4{
     padding: 0 0 20px 0;
 }
 
+h3.an{
+  padding: 30px,30px,30px,60px;
+}
+h4.an{
+  padding: 0,30px,30px,0;
+}
+
+p.an{
+  margin: 90px,90px,90px,90px;
+  padding: 90px,90px,90px,90px;
+}
 p.syo{
  font-size: 0.9em;
  margin: 0,0,0,60px;
 }
 
 /*画像関連(PC向け)*/
+@media (min-width: 992px) {
+  .carousel-inner .carousel-item img {
+    height: 650px;
+    object-fit: cover;
+  }
+}
+
 img.card-img-top{
     width: 55%;
     height: 65%;
